@@ -1,6 +1,6 @@
 ## Curriculum
 
-### Utilities: Shell and POSIX
+#### Utilities: Shell and POSIX
 * Pipes and directing output
 * Essential utilities
     * Explore (head, tail, more, less, grep)
@@ -9,7 +9,7 @@
     * Visualize (gnuplot)
 * Regular Expressions
 
-### Software Engineering
+#### Software Engineering
 * Git and version control
 * Data Structures
     * Dictionaries and Hash Tables
@@ -24,7 +24,7 @@
     * Selection
 * Performance (Asymptotic Analysis, hardware restrictions, indexing, etc.)
 
-### Acquire
+#### Data Acquisition
 * HTTP
 * APIs and ReST
 * HTML and XML
@@ -32,16 +32,23 @@
 * Web Scraping
 * PDF parsing
 
-### Statistics
+#### Statistics and Probability
 * Descriptive statistics (mean, mode, variance, skew, etc.)
-* Estimation (confidence intervals, bias and error, etc.)
+* Estimation (confidence intervals, sampling, etc.)
 * Correlation (covariance, goodness of fit, causation, etc.)
-* Distributions (PMF, CDF, Normal, Binomial, convolution, etc.)
+* Distributions 
+    * PMF, PDF, CDF, CMF 
+    * Histograms and Scatterplots
+    * Normal, Binomial, Exponential
+    * Probability Plot
+    * Central Limit Theorem
 * Significance (Hypothesis testing, p-value, ANOVA, etc.)
-* Bayesian Statistics
-* Monte Carlo Methods
+* Conditional Probability
+    * Bayesian Statistics
+    * Random Variables and Conditional Distributions
+    * Monte Carlo Methods
 
-### Transform
+#### Transform
 * Sampling
 * Feature Preparation
     * Vectorization (binning, bag of words, tf-idf)
@@ -54,26 +61,21 @@
     * Sentiment Analysis
     * Information Retrieval
 
-### Store
-* SQL
+#### Store
+* SQL (Postgres, MySQL)
 * NoSQL (document, graph, key-value) 
 * Filesystem and Text
 
-### Visualize and Present
-* Grammer of Graphics (ggplot2, Bokeh)
-* Interactivity
-* Geographic display
-
-### Data at Scale
+#### Data at Scale
 * MapReduce paradigm (Hadoop)
 * Distributed Datastores (HDFS, Cassandra, HBase)
 * Hadoop Ecosysytem (Pig, Hive, HBase, Flume, Sqoop, etc.)
 * Real-Time (Spark, Storm, Shark)
 * Distributed Machine Learning
 
-### Machine Learning
+#### Machine Learning
 * Unsupervised
-    * Clustering (K-means, Hierachical, etc.)
+    * Clustering (K-means, Hierarchical, etc.)
     * Association Analysis (FP-Growth, MDS, etc.)
     * Dimensionality Reduction (PCA, SVD, etc.)
 * Supervised
@@ -84,10 +86,16 @@
     * Item vs. User vs. Content based
     * Limitations (Cold-start problem, preference collection, performance)
 * Optimization (cost functions, hill climbing, simulated annealing, etc.)
-* Anomaly Detection and timeseries
-* Evaluation
+* Anomaly Detection and Time Series Analysis
+* Evaluation 
     * Cross Validation
     * ROC plot
     * Bias vs. Variance
     * Recall vs. Precision
     * Bootstrap
+
+#### Visualize and Present
+* Grammer of Graphics (ggplot2, Bokeh)
+* Interactivity (Javascript, HTML, D3.js, CSS)
+* Geographic display (i.e. maps)
+* Charts, plots, and layout (Visual Display of Quantitative Information)
